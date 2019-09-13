@@ -1,0 +1,26 @@
+{
+  "name": "sdk-examples",
+  "version": "1.0.0",
+  "description": "A series of examples using the Dat SDK in Node.js and the web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hypertrie": "browserify ./hypertrie > ./hypertrie/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datproject/sdk-examples.git"
+  },
+  "author": "rangermauve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/datproject/sdk-examples/issues"
+  },
+  "homepage": "https://github.com/datproject/sdk-examples#readme",
+  "dependencies": {
+    "browserify": "^16.5.0",
+    "dat-sdk": "^0.3.1",
+    "hypertrie": "^3.8.0"
+  },
+  "devDependencies": {}
+}
